@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
-    "precommit": "echo 'Sub 2 precommit running'"
+    "precommit": "yarn lint"
   },
   "keywords": [],
   "author": "",
