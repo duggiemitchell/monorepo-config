@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint .",
     "format": "npx prettier --write .",
-    "check:js": "run-s lint format",
-    "precommit": "check:js"
+    "pre-commit": "lint-staged"
   },
   "keywords": [],
   "author": "",

@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx lint-staged
+lerna run --parallel --stream pre-commit --since HEAD --exclude-dependents
