@@ -3,4 +3,4 @@ console.log('hello from sub1.');
 
 const foo = 'foo';
 const runFoo = () => foo;
-run 
+runFoo();
